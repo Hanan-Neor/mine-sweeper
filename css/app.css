@@ -1,0 +1,112 @@
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    /* user-select: none; */
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    font: bold 15px tahoma;
+    width: 300px;
+    transform: translate(-50%);
+}
+
+.levelButton {
+    font: bold 15px tahoma;
+    background-color: rgb(156, 190, 224);
+    width: 300;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+.smiley {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.level {
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightyellow;
+}
+
+.board-container {
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.board {
+    cursor: default;
+    border-spacing: 1px;
+    border-style: solid;
+}
+
+.cell {
+    font: bold 15px tahoma;
+    padding: 0;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    box-shadow: 2px 2px 5px 0px rgb(155, 152, 152);
+    margin: 4px 10px 4px 10px;
+    cursor: default;
+}
+
+table td:active {
+    box-shadow: 0 0 0 lightgray;
+    margin: 6px 10px 2px 10px;
+}
+
+.clicked {
+    font: bold 15px tahoma;
+    padding: 0;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 0 0 rgb(200, 200, 200);
+    margin: 6px 10px 2px 10px;
+}
+
+img {
+    width: 22px;
+    height: 22px;
+}
+
+.lives {
+    background-color: lightyellow;
+    width: 300px;
+}
+
+.name {
+    width: 300px;
+    display: inline-block;
+    height: 20px;
+    background-color: rgb(248, 154, 66);
+}
+
+
+.modal{
+    /* align-items: middle; */
+    display: none;
+    position: absolute;
+    /* height: 50px; */
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px 0 20px 0;
+    background-color: rgb(85, 157, 224);
+    color: whitesmoke;
+    border-radius: 50%;
+    width: 200px;
+}
+

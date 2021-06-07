@@ -1,0 +1,34 @@
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body onload="initGame()" oncontextmenu="return false;">
+
+
+    <div class="level"><button class="levelButton" onclick="levelSelect(this)">Beginner</button><br />
+        <button class="levelButton" onclick="levelSelect(this)">Medium</button><br />
+        <button class="levelButton" onclick="levelSelect(this)">Expert</button><br />
+        <div><button class="smiley" onclick="initGame()"></button></div>
+        <span id="safeTimerDisplay">00:00</span>
+    </div>
+
+    <div class="board-container"></div>
+
+    <div class="lives"><span>3 </span>LIVES LEFT</div>
+    <p class="name">Hanan Neor</p>
+    <div class="modal"></div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/clicked.js"></script>
+
+</body>
+
+</html>
+
+
